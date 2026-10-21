@@ -1,0 +1,127 @@
+SAMPLE RUN - Cricket Player Statistics (P24)
+Register Number: 7376252AL125
+Run on the original sample data. Inputs typed by the user appear
+after each prompt. After the first screen, the menu text that the
+program reprints before each choice is shown as [menu].
+
+================================
+   CRICKET PLAYER STATISTICS
+================================
+1. Add Player
+2. Record Match Performance
+3. View Player Profile
+4. Top 5 Run Scorers
+5. Top 5 Wicket Takers
+6. Team Totals
+7. Exit
+Enter your choice (1-7): 3
+--- Player Profile ---
+Enter Player ID: PL07
+
+Player ID      : PL07
+Name           : Sneha T
+Team           : CSE Strikers
+Role           : All-rounder
+Matches        : 2
+Total runs     : 133
+Highest score  : 83
+50s            : 2
+100s           : 0
+Batting average: 133.00
+Strike rate    : 152.87
+Total wickets  : 1
+Best bowling   : 1/20
+Overs bowled   : 4.2
+Economy        : 8.31
+
+[menu]
+Enter your choice (1-7): 1
+--- Add Player ---
+Enter Player ID (e.g. PL11): pl01
+That Player ID already exists. Please use a different one.
+Enter Player ID (e.g. PL11): PL11
+Enter name: Nila K
+Enter team: IT Warriors
+Enter role (Batter / Bowler / All-rounder / Wicketkeeper): Captain
+Invalid role. Please choose one of the four roles shown.
+Enter role (Batter / Bowler / All-rounder / Wicketkeeper): all-rounder
+Player PL11 (Nila K) added and saved.
+
+[menu]
+Enter your choice (1-7): 2
+--- Record Match Performance ---
+Enter Player ID: PL11
+Player: Nila K (IT Warriors)
+Enter match number: 1
+Runs scored: 35
+Balls faced: 25
+Out? (Y/N): n
+Overs bowled (e.g. 3.4 = 3 overs 4 balls, 0 if none): 2.4
+Runs conceded: 18
+Wickets taken (0-10): 1
+Match 1 record saved for Nila K.
+
+[menu]
+Enter your choice (1-7): 2
+--- Record Match Performance ---
+Enter Player ID: PL11
+Player: Nila K (IT Warriors)
+Enter match number: 1
+A record for PL11 in match 1 already exists.
+
+[menu]
+Enter your choice (1-7): 3
+--- Player Profile ---
+Enter Player ID: PL11
+
+Player ID      : PL11
+Name           : Nila K
+Team           : IT Warriors
+Role           : All-rounder
+Matches        : 1
+Total runs     : 35
+Highest score  : 35
+50s            : 0
+100s           : 0
+Batting average: N/A
+Strike rate    : 140.00
+Total wickets  : 1
+Best bowling   : 1/18
+Overs bowled   : 2.4
+Economy        : 6.75
+
+[menu]
+Enter your choice (1-7): 4
+--- Top 5 Run Scorers ---
+Rank  ID    Name          Team          Runs
+1     PL07  Sneha T       CSE Strikers  133
+2     PL01  Arjun S       CSE Strikers  106
+3     PL09  Meena S       ECE Eagles    105
+4     PL04  Rahul K       IT Warriors   96
+5     PL05  Divya M       ECE Eagles    93
+
+[menu]
+Enter your choice (1-7): 5
+--- Top 5 Wicket Takers ---
+Rank  ID    Name          Team          Wickets
+1     PL06  Vikram P      ECE Eagles    5
+2     PL08  Surya N       IT Warriors   5
+3     PL02  Karthik V     CSE Strikers  3
+4     PL03  Priya R       IT Warriors   3
+5     PL07  Sneha T       CSE Strikers  1
+
+[menu]
+Enter your choice (1-7): 6
+--- Team Totals ---
+Team            Players  Runs    Wickets
+CSE Strikers    4        324     4
+IT Warriors     4        233     9
+ECE Eagles      3        220     5
+
+[menu]
+Enter your choice (1-7): 9
+Invalid choice. Please enter a number from 1 to 7.
+
+[menu]
+Enter your choice (1-7): 7
+Goodbye!

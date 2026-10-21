@@ -1,0 +1,11 @@
+PlayerID|Name|Team|Role
+PL01|Arjun S|CSE Strikers|Batter
+PL02|Karthik V|CSE Strikers|Bowler
+PL03|Priya R|IT Warriors|All-rounder
+PL04|Rahul K|IT Warriors|Batter
+PL05|Divya M|ECE Eagles|Wicketkeeper
+PL06|Vikram P|ECE Eagles|Bowler
+PL07|Sneha T|CSE Strikers|All-rounder
+PL08|Surya N|IT Warriors|Bowler
+PL09|Meena S|ECE Eagles|Batter
+PL10|Ajay R|CSE Strikers|Wicketkeeper
